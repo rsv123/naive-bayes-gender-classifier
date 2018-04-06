@@ -93,9 +93,9 @@ p_x_given_y(person['Height'][0], female_height_mean, female_height_variance) * \
 p_x_given_y(person['Weight'][0], female_weight_mean, female_weight_variance) * \
 p_x_given_y(person['Foot_Size'][0], female_footsize_mean, female_footsize_variance)
 
-print("posterior of male is: ",p_male)
-print("Posterior of female is: ",p_female)
+print("Probablity of male is: ",p_male)
+print("Probablity of female is: ",p_female)
 if(p_male>p_female):
-    print("It is a male,since posterior of male is greater")
+    print("It is a male,since probablity of male is greater")
 else:
-    print("It is a female,since posterior of female is greater")
+    print("It is a female,since probabality of female is greater")
